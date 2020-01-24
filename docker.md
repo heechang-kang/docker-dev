@@ -1,33 +1,37 @@
 # basic
 
-## 
-|docker info||
-|docker version||
-|docker container list||
-|docker pull <image>||
+## docker commands 
 
-|                                             |                                                                                |
-| ------------------------------------------- | ------------------------------------------------------------------------------ |
-| docker container run                        |                                                                                |
-| docker run <img>:<version>                  | the container is only running                                                  |
-| docker run -d <image>                       | runs in the background                                                         |
-| docker run -i <img>                         | interactive and '-it' means interactive terminal                               |
-| docker run -p 80:5000 <image>               | it is mapping the port/ p: port ,, 80: user port or dockerHost, 5000: internal |
-| docker attach <image or id>                 |                                                                                |
-| docker run -v <locExternal>:<locIn> <image> |                                                                                |
-|                                             |                                                                                |
-| docker build <dest>                         | build -t <name> <dest>                                                         |
-|                                             |                                                                                |
-|                                             |                                                                                |
-| docker inspect <name>                       | when see env, u can use docker run -e <name>                                   |
-| docker logs <name>                          |                                                                                |
-| docker stop                                 |                                                                                |
-|                                             |                                                                                |
-| docker rm                                   |                                                                                |
-|                                             |                                                                                |
-|                                             |                                                                                |
-|                                             |                                                                                |
-| docker exec cat <file>                      | run a command in the container                                                 |
+|                       |     |
+| --------------------- | --- |
+| docker info           |     |
+| docker version        |     |
+| docker container list |     |
+| docker pull <image>   |     |
+
+|                                             |                                                  |
+| ------------------------------------------- | ------------------------------------------------ |
+| docker container run                        |                                                  |
+| docker run <img>:<version>                  | the container is only running                    |
+| docker run -d <image>                       | runs in the background                           |
+| docker run -i <img>                         | interactive and '-it' means interactive terminal |
+| docker run -p 80:5000 <image>               | it is mapping the port/ p: port                  |
+|                                             | 80: user port 5000: internal                     |
+| docker attach <image or id>                 |                                                  |
+| docker run -v <locExternal>:<locIn> <image> |                                                  |
+|                                             |                                                  |
+| docker build <dest>                         | build -t <name> <dest>                           |
+|                                             |                                                  |
+|                                             |                                                  |
+| docker inspect <name>                       | when see env, u can use docker run -e <name>     |
+| docker logs <name>                          |                                                  |
+| docker stop                                 |                                                  |
+|                                             |                                                  |
+| docker rm                                   |                                                  |
+|                                             |                                                  |
+|                                             |                                                  |
+|                                             |                                                  |
+| docker exec cat <file>                      | run a command in the container                   |
 
 | dockerfile command                         |             |
 | ------------------------------------------ | ----------- |
